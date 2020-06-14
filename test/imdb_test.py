@@ -82,7 +82,6 @@ def show_loss(history):
 
     plt.show()
 
-
 def show_accuracy(history):
     history_dict = history.history
     acc = history_dict['acc']
